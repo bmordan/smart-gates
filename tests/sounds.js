@@ -10,3 +10,11 @@ test('Should be able to find sound files', function (t) {
     t.end()
   })
 })
+
+test('Should be able to play sound files', function (t) {
+  t.plan(1)
+  sounds.picknplay(function (err) {
+    t.ifError(err, 'no error')
+    t.end()
+  })
+})

@@ -17,6 +17,7 @@
   "dependencies": {
     "johnny-five": "^0.10.0",
     "lodash.sample": "^4.2.1",
+    "play-sound": "0.0.9",
     "raspi-io": "^6.1.0"
   },
   "devDependencies": {
