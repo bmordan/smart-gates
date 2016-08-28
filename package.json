@@ -1,0 +1,25 @@
+{
+  "name": "gates",
+  "version": "0.0.1",
+  "description": "smart gate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard && node tests/sounds.js"
+  },
+  "keywords": [
+    "node",
+    "johnny-five",
+    "drones"
+  ],
+  "author": "Bernard Mordan <bernard@tableflip.io> (http://github.com/bmordan)",
+  "license": "MIT",
+  "dependencies": {
+    "johnny-five": "^0.10.0",
+    "lodash.sample": "^4.2.1",
+    "raspi-io": "^6.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
