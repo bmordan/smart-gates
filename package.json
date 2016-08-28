@@ -2,9 +2,9 @@
   "name": "gates",
   "version": "0.0.1",
   "description": "smart gate",
-  "main": "index.js",
+  "main": "./lib/main.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./lib/main.js",
     "test": "standard && node tests/sounds.js"
   },
   "keywords": [
