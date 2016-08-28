@@ -17,10 +17,14 @@
   "dependencies": {
     "johnny-five": "^0.10.0",
     "lodash.sample": "^4.2.1",
+    "node-gyp": "^3.4.0",
     "play-sound": "0.0.9",
-    "raspi-io": "^6.1.0"
+    "raspi-io": "^6.1.0",
+    "raspi-wiringpi": "^1.0.6",
+    "rebuild": "^0.1.2"
   },
   "devDependencies": {
+    "standard": "^8.0.0",
     "tape": "^4.6.0"
   }
 }
